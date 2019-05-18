@@ -5,14 +5,14 @@ Protection and Energy.
 
 To use this package, install and load it:
 
-    devtools::install_github("dataspekt/croaq")
+    #devtools::install_github("dataspekt/croaq")
     library(croaq)
 
-Main function of this package which is used to fetch the data is called
-`croaq()`, but first you will probably want to view meta-data on
-stations, pollutants and data types and take note of relevant codes and
-labels. Use `listStations()` for stations, `listPollutants()` for
-pollutants and `listDatatypes()` for data types, for example:
+Main function of this package which is used to fetch data is `croaq()`,
+but first you will probably want to view meta-data on stations,
+pollutants and data types and take note of relevant codes and labels.
+Use `listStations()` for stations, `listPollutants()` for pollutants and
+`listDatatypes()` for data types, for example:
 
     head(listPollutants())
 
@@ -95,5 +95,5 @@ Function `wide()` will reshape resulting object into a wide data frame:
 
 Please note that availabilty of data depends on selected station,
 pollutants and data type. If no requested data is available, function
-`croaq` will return `NULL`. It is recommended to check beforehand if
+`croaq()` will return `NULL`. It is recommended to check beforehand if
 data is available using UI at <http://iszz.azo.hr/iskzl/exc.htm>.

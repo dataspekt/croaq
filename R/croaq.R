@@ -1,5 +1,5 @@
 #' @aliases croaq-package
-#' @details This package simplifies access to air quality data from state and local networks of measurement stations provided by Croatian Ministry of Environmental Protection and Energy. Main function of this package which is used to fetch the data is `croaq()`. Meta-data on stations, pollutants and datatypes is provided by functions `listStations()`, `listPollutants()` and `listDatatypes()`.
+#' @details This package simplifies access to air quality data from state and local networks of measurement stations provided by Croatian Ministry of Environmental Protection and Energy. Main function of this package which is used to fetch data is `croaq()`. Meta-data on stations, pollutants and datatypes is provided by functions `listStations()`, `listPollutants()` and `listDatatypes()`.
 "_PACKAGE"
 
 #' Fetch air quality data
