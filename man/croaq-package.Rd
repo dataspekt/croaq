@@ -6,7 +6,7 @@
 \alias{_PACKAGE}
 \title{croaq: Air quality in Croatia}
 \description{
-Access to data on air quality in Croatia.
+Access to air quality data in Croatia.
 }
 \details{
 This package simplifies access to air quality data from state and local networks of measurement stations provided by Croatian Ministry of Environmental Protection and Energy. Main function of this package which is used to fetch the data is `croaq()`. Meta-data on stations, pollutants and datatypes is provided by functions `listStations()`, `listPollutants()` and `listDatatypes()`.

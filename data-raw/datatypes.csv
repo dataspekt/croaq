@@ -1,0 +1,20 @@
+code,label,cycle
+0,"Satni izvorni podaci",hourly
+1,"Satni validirani podaci",hourly
+2,"Osmosatni izvorni podaci",hourly
+3,"Osmosatni validirani podaci",hourly
+4,"Dnevni izvorni podaci",daily
+5,"Dnevni validirani podaci",daily
+6,"Mjesečni izvorni podaci",monthly
+7,"Mjesečni validirani podaci",monthly
+8,"Godišnji izvorni podaci",yearly
+9,"Godišnji validirani podaci",yearly
+10,"Maksimalne dnevne osmosatne srednje vrijednosti - izvorni podaci",daily
+11,"Maksimalne dnevne osmosatne srednje vrijednosti - validirani podaci",daily
+12,"Dvanaestmjesečni prosjek - izvorni podaci",monthly
+13,"Dvanaestmjesečni prosjek - validirani podaci",monthly
+14,"Zimski prosjek mjerenih podataka",other
+15,"Zimski prosjek validiranih podataka",other
+16,"Dnevni izvorni podaci - gravimetrija",daily
+17,"Dnevni validirani podaci - gravimetrija",daily
+18,"24-satni izvorni podaci",daily
