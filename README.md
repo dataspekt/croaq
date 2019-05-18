@@ -64,7 +64,7 @@ Time points with missing data are shown as vertical red lines.
 
     plot(data)
 
-![Example plot](https://raw.githubusercontent.com/{user}/{repo}/assets/example_plot.png)
+![Example plot](https://raw.githubusercontent.com/dataspekt/croaq/assets/example_plot.png)
 
 Sometimes it is handy to work with data in wide instead of long format.
 Function `wide()` will reshape resulting object into a wide data frame:
