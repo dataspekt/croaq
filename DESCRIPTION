@@ -1,0 +1,10 @@
+Package: croaq
+Title: Air quality in Croatia
+Version: 0.0.1
+Authors@R: person("Martin", "Pozar", email = "mpozar@dataspekt.com", role = c("aut", "cre"))
+Description: Access to air quality data in Croatia.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: methods, jsonlite
